@@ -1,0 +1,187 @@
+.main_container {
+  width: 100vh;
+}
+
+.image_container {
+  width: 100%;
+  height: 160%;
+  position: absolute;
+
+  object-fit: cover;
+}
+
+.help {
+  display: flex;
+  column-gap: 8px;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+
+  width: 78px;
+  height: 28px;
+  position: relative;
+  top: 700px;
+  left: 90px;
+  padding: 6px;
+  border-radius: 18px;
+  color: #ffffff;
+  background: #0c6b71;
+}
+
+.baseline {
+  width: 18px;
+  height: 18px;
+  position: relative;
+  bottom: 2px;
+  left: 5px;
+  color: #ffffff;
+}
+
+.form_container {
+  width: 75%;
+  height: 650px;
+  position: relative;
+  top: 90px;
+  left: 90%;
+  border: 1px;
+  border: 1px solid #c0c0c0;
+  background: #ffffff;
+}
+
+.signup_heading {
+  width: 157px;
+  height: 29px;
+  font-family: "Helvetica Neue";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  /* text-align: left; */
+  color: #000000;
+  position: relative;
+  top: 115px;
+  left: 155px;
+}
+
+.epp_header {
+  width: 62%;
+  height: 40px;
+  position: relative;
+  top: 20px;
+  left: 80px;
+}
+
+.epp_header2 {
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+  border-radius: 100px;
+  position: absolute;
+  top: 45px;
+  left: 30px;
+}
+
+.form {
+  width: 300px;
+  height: 350px;
+  position: relative;
+  top: 100px;
+  left: 38px;
+}
+
+.form_input {
+  padding: 16px;
+  border: 1px;
+  width: 300px;
+  height: 25px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #bebebe;
+}
+
+.eye_icon {
+  position: relative;
+  bottom: 22px;
+  left: 92%;
+}
+
+.form_input2 {
+  padding: 16px;
+  border: 1px;
+  width: 300px;
+  height: 25px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #bebebe;
+  position: relative;
+  bottom: 42px;
+}
+
+.terms {
+  width: 300px;
+  height: 40px;
+  position: relative;
+  bottom: 25px;
+}
+
+.terms_para {
+  font-family: "Inter";
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 16px;
+  color: #000000;
+
+  text-align: left;
+}
+
+.terms_para span {
+  color: #0c6b71;
+}
+
+.create_btn {
+  width: 300px;
+  height: 33px;
+  padding: 10px;
+  border-radius: 18px;
+  position: relative;
+  bottom: 16x;
+  color: #ffffff;
+  background: #c0c0c0;
+}
+
+.create_para {
+  font-family: "Inter";
+  font-size: 10px;
+  font-weight: 600;
+  line-height: 14px;
+  text-align: center;
+}
+
+.login {
+  /* width: 100%; */
+  /* height: 21px; */
+  margin-top: 18px;
+  /* margin-left: 45px; */
+}
+
+.login_para {
+  font-family: "Inter";
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+  color: #727272;
+  position: relative;
+  right: 35px;
+}
+
+/* .login_para span {
+} */
+
+.login {
+  font-weight: 700;
+  color: #0c6b71;
+  font-size: 12px;
+  text-decoration: none;
+}

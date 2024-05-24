@@ -1,0 +1,12 @@
+.book {
+  width: 190px; /* Adjust as needed */
+  height: 30px; /* Adjust as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0c6b71;
+  gap: 14px;
+  border: 2px solid black;
+
+  /* Removed position: absolute;, top: 70%, right: 28%; */
+}

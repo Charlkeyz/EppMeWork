@@ -1,0 +1,157 @@
+.main_container {
+  width: 100%;
+  height: auto;
+  background: #f8f8f8c7;
+}
+
+.flex_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.paragraph {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Archivo";
+  color: #0c6b71;
+  text-align: center;
+}
+
+.discover {
+  font-family: "Archivo";
+  height: 40px;
+  width: 60%;
+  font-size: 18px;
+  font-weight: 400;
+  color: #45484fb2;
+  position: relative;
+  top: 10px;
+  left: 20%;
+  bottom: 10px;
+  line-height: 25px;
+}
+
+.discover p {
+  position: relative;
+  left: 75px;
+}
+
+.testimonial_container {
+  width: 28%;
+  height: 195px;
+  margin-bottom: 25px;
+  position: relative;
+  left: 10px;
+}
+
+.container {
+  width: 95%;
+  height: 90%;
+  padding: 16px;
+  border-radius: 8px;
+
+  position: relative;
+  top: 16px;
+  border: 2px solid #d9d9d9;
+}
+
+.image_div {
+  position: absolute;
+  right: 78%;
+  top: 8px;
+}
+
+.image {
+  border-radius: 50%;
+}
+
+.name {
+  font-family: "Archivo";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+  margin-bottom: 5px;
+  position: relative;
+  left: 20%;
+  color: #000000;
+}
+
+.artisan {
+  font-family: "Archivo";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  /* margin-bottom: 2%; */
+
+  position: relative;
+  left: 20%;
+  color: #000000b2;
+}
+
+.email {
+  font-family: "Archivo";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  /* margin-bottom: 5px; */
+  position: relative;
+  left: 20%;
+  color: #000000b2;
+}
+
+.message {
+  font-family: "Archivo";
+  font-size: 14px;
+  font-weight: 400px;
+  margin-top: 6px;
+  line-height: 14px;
+  color: #333333;
+  position: absolute;
+  top: 65px;
+  right: 10px;
+  left: 22%;
+  bottom: 10px;
+}
+
+.social {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+@media screen and (max-width: 760px) {
+  .main_container {
+    display: none;
+  }
+  .paragraph {
+    font-size: 16px;
+    font-weight: 300;
+    width: auto;
+    /* text-align: center; */
+  }
+  .discover {
+    height: 40px;
+    width: 55%;
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 16px;
+    margin-left: 10px;
+  }
+  .discover p {
+    height: 40px;
+    width: 85%;
+    font-size: 12px;
+    font-weight: 200;
+    line-height: 16px;
+    left: 10px;
+    text-align: center;
+    margin-left: 20px;
+  }
+  .testimonial_container {
+    display: flex;
+  }
+}

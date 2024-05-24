@@ -1,0 +1,302 @@
+.container {
+  width: 99.8%;
+  height: 700px;
+  left: 2px;
+  background: #e7f0f1;
+  position: relative;
+  top: 30px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header_container {
+  width: 60%;
+  height: 31px;
+  position: relative;
+  left: 40px;
+}
+
+.header {
+  font-family: "Archivo";
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 25px;
+  color: #0c6b71;
+  position: relative;
+  top: 40px;
+  left: 95px;
+}
+
+.works_container {
+  width: 24rem;
+  height: 450px;
+  position: absolute;
+  left: 90px;
+  top: 90px;
+  padding: 68px, 27px, 155px, 27px;
+  border-radius: 20px;
+  background: #ffffff;
+}
+
+.list_container {
+  width: 90%;
+  height: 296px;
+  position: relative;
+  left: 27px;
+}
+
+.para_container {
+  width: 40%px;
+  height: 40px;
+  position: relative;
+  left: 40px;
+  bottom: 90px;
+  list-style: none;
+}
+
+.first_1 {
+  width: 40px;
+  height: 40px;
+  padding: 8px, 0px, 14px, 0px;
+  border-radius: 40px;
+  position: relative;
+  top: 12%;
+  right: 4px;
+
+  background: #eafaf1;
+}
+
+.second_2 {
+  width: 40px;
+  height: 40px;
+  padding: 8px, 0px, 14px, 0px;
+  border-radius: 40px;
+  position: relative;
+  top: 22%;
+  right: 4px;
+
+  background: #fcf7e6;
+}
+
+.third_3 {
+  width: 40px;
+  height: 40px;
+  padding: 8px, 0px, 14px, 0px;
+  border-radius: 40px;
+  position: relative;
+  top: 31%;
+  right: 4px;
+
+  background: #fdedec;
+}
+
+.four_4 {
+  width: 40px;
+  height: 40px;
+  padding: 8px, 0px, 14px, 0px;
+  border-radius: 40px;
+  position: relative;
+  top: 42%;
+  right: 4px;
+
+  background: #e2e2e2;
+}
+
+.one {
+  height: 16px;
+  position: absolute;
+  top: 10%;
+  right: 112%;
+  bottom: 20px;
+  font-family: "Inter";
+  /* font-size: 4px; */
+
+  color: #0c6b71;
+}
+
+.para_1 {
+  width: 300px;
+  height: 45px;
+  font-family: "Archivo";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  position: relative;
+  top: -28px;
+  left: 15px;
+  color: #0c6b71;
+}
+
+.two {
+  height: 16px;
+  position: absolute;
+  top: 10%;
+  right: 111%;
+  font-family: "Inter";
+  /* font-size: 2px; */
+
+  color: #0c6b71;
+}
+
+.three {
+  height: 16px;
+  position: absolute;
+  top: 14%;
+  right: 111%;
+  font-family: "Inter";
+  /* font-size: 2px; */
+
+  color: #0c6b71;
+}
+
+.four {
+  height: 16px;
+  position: absolute;
+  top: 8%;
+  right: 111%;
+  font-family: "Inter";
+  /* font-size: 2px; */
+
+  color: #0c6b71;
+}
+
+.para_2 {
+  width: 300px;
+  height: 45px;
+  font-family: "Archivo";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  /* text-align: left; */
+  position: relative;
+  top: -20px;
+  left: 15px;
+
+  color: #0c6b71;
+}
+
+.para_3 {
+  width: 300px;
+  height: 45px;
+  font-family: "Archivo";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  /* text-align: left; */
+  position: relative;
+  top: -20px;
+  left: 15px;
+
+  color: #0c6b71;
+}
+
+.para_4 {
+  width: 300px;
+  height: 45px;
+  font-family: "Archivo";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+  /* text-align: left; */
+  position: relative;
+  top: -5px;
+  left: 15px;
+
+  color: #0c6b71;
+}
+
+.cleaner {
+  width: 40%;
+  height: 500px;
+  margin-right: 350px;
+  margin-bottom: 90px;
+  border-radius: 25px;
+}
+
+.image {
+  height: 600px;
+  width: 185%;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 760px) {
+  .cleaner {
+    display: none;
+  }
+  .works_container {
+    display: unset;
+    position: unset;
+    width: auto;
+    height: unset;
+    margin-right: 50px;
+    margin-left: 0;
+    /* padding-left: 0px; */
+    background: unset;
+    top: 0;
+  }
+
+  .container {
+    /* display: unset; */
+    margin-top: unset;
+    height: 400px;
+    position: unset;
+    right: unset;
+  }
+  .para_container {
+    /* width: 100%px; */
+    height: 40px;
+    font-size: 10px;
+  }
+  .header {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .para_1 {
+    width: 240px;
+    height: 45px;
+    font-size: 12px;
+    font-weight: 300;
+  }
+  .para_2 {
+    width: 240px;
+    height: 45px;
+    font-size: 12px;
+    font-weight: 300;
+  }
+  .para_3 {
+    width: 240px;
+    height: 45px;
+    font-size: 12px;
+    font-weight: 300;
+  }
+  .para_4 {
+    width: 240px;
+    height: 45px;
+    font-size: 13px;
+    font-weight: 300;
+  }
+  .first_1 {
+    top: 35px;
+    left: 2px;
+  }
+  .second_2 {
+    top: 62px;
+    left: 1px;
+  }
+  .third_3 {
+    top: 78px;
+    left: 1px;
+  }
+  .four_4 {
+    top: 108px;
+    left: 1px;
+  }
+  .list_container {
+    width: none;
+    position: relative;
+    right: 40px;
+    left: 20px;
+  }
+}

@@ -1,0 +1,203 @@
+.main_container {
+  width: 100%;
+  /* height: 200px; */
+  /* top: 406px;
+left: 2540px; */
+}
+
+.image {
+  width: 100%;
+  background-image: url("/src/assets/medium-shot-man-cleaning-table 3.png");
+  height: 317px;
+}
+
+.about_header {
+  font-family: "Archivo";
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 75px;
+  margin-left: 42%;
+  position: relative;
+  bottom: 200px;
+  color: #ffffff;
+}
+
+.story_container {
+  margin-top: 5%;
+  width: 100%;
+  height: 550px;
+  position: relative;
+  top: -50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image_div {
+  width: 45%;
+  height: 530px;
+}
+
+.elegantman {
+  width: 45%;
+  height: 40%;
+  border-radius: 12px;
+  position: relative;
+  top: 10%;
+  left: 10%;
+}
+
+.frame {
+  position: relative;
+  left: 14%;
+  bottom: 14%;
+}
+
+.frame1 {
+  position: relative;
+  top: 50%;
+  right: 30%;
+}
+
+.frame2 {
+  width: 40%;
+  position: relative;
+  bottom: 20%;
+  left: 60%;
+  border-radius: 12px;
+}
+
+.frame3 {
+  position: relative;
+  top: 20%;
+  left: 16%;
+}
+
+.frame4 {
+  position: relative;
+  top: 25%;
+  right: 30%;
+}
+
+.story_div {
+  width: 50%;
+  height: 265px;
+  position: relative;
+  top: 20%;
+  /* border: 1px solid red; */
+}
+
+.story_header1 {
+  font-family: "Archivo";
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 60px;
+  text-align: left;
+  color: #0c6b71;
+  margin-bottom: 16px;
+}
+
+.story_header2 {
+  font-family: "Archivo";
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 60px;
+  text-align: left;
+  color: #0c6b71;
+  margin-bottom: 16px;
+}
+
+.paragrah {
+  font-family: "Inter";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: left;
+  color: #052d2f;
+  width: 90%;
+  height: 239px;
+}
+
+.mission_div {
+  width: 50%;
+  height: 265px;
+  position: relative;
+  top: 20%;
+  left: 5%;
+}
+
+.image_div2 {
+  width: 45%;
+  height: 530px;
+  position: relative;
+  right: 5%;
+  /* background-color: aqua; */
+}
+
+.team_container {
+  width: 100%;
+}
+
+.team_para {
+  font-family: "Archivo";
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 75px;
+  text-align: center;
+  color: #0c6b71;
+  margin-bottom: 40px;
+}
+.photomap {
+  width: 100%;
+  /* height: 308px; */
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.photodiv {
+  width: 260px;
+  height: 300px;
+  padding: 30px 0px 9px 0px;
+  background: linear-gradient(
+    180deg,
+    #b4d1d3 0%,
+    rgba(255, 255, 255, 0.6) 112.01%
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 200px 200px 0px 0px;
+  flex-wrap: wrap;
+  position: relative;
+}
+.photodiv2 {
+  width: 250px;
+  height: 250px;
+  /* background-color: Teal; */
+  bottom: 10%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.photodeatails h1 {
+  font-family: "Archivo";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.7;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.track {
+  font-family: "Archivo";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+  position: relative;
+  bottom: 10px;
+}

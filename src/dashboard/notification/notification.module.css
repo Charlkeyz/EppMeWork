@@ -1,0 +1,45 @@
+/* .flex_container {
+  display: flex;
+  flex-direction: column;
+} */
+
+.image {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.container {
+  width: 74%;
+  height: 100px;
+  position: relative;
+  top: 60px;
+  left: 23%;
+  gap: 16px;
+  opacity: 0px;
+  background: #ebebeb;
+  /* display: flex; */
+}
+
+.name {
+  font-family: "Archivo";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 17px;
+  text-align: left;
+  color: #0c6b71;
+}
+
+.name span {
+  color: #0c6b71;
+}
+
+.offer {
+  color: #3b3f5c;
+}
+
+.time {
+  position: relative;
+  left: 250px;
+  color: #0c6b71;
+}

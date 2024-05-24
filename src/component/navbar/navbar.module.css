@@ -1,0 +1,231 @@
+.container {
+  width: 100%;
+  height: 70px;
+  /* flex-shrink: 0; */
+  background: #fff;
+  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1); */
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.innercontainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* gap: 80px; */
+  padding: 0.5rem;
+  position: relative;
+  top: 4px;
+}
+.btn_icon {
+  display: none;
+  position: relative;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* margin-right: 14%; */
+}
+
+.eppme {
+  width: 10px;
+  height: 18px;
+  color: #000;
+  font-family: "Archivo";
+  font-size: 20px;
+  font-style: normal;
+  line-height: 20px;
+  text-align: center;
+  top: 4px;
+  margin-left: 90px;
+}
+
+.image1 {
+  width: 26px;
+  height: 26px;
+  padding: 3px 3px 4px 4px;
+  border-radius: 100px;
+
+  position: relative;
+  top: 10px;
+  left: 110px;
+  background: #fcf7e6;
+}
+
+.service {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 21px;
+  text-align: center;
+  color: #333333;
+}
+
+.service:hover {
+  border-top: 1px solid #0c6b71;
+  padding-top: 4px;
+  color: #0c6b71;
+  cursor: pointer;
+}
+
+.servicework {
+  width: 74px;
+  height: 37px;
+  padding: 8px;
+}
+
+.work {
+  font-family: "Inter";
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 21px;
+  text-align: center;
+  color: #333333;
+}
+
+.work:hover {
+  color: #0c6b71;
+  cursor: pointer;
+  border-top: 1px solid #0c6b71;
+  padding-top: 4px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  list-style: none;
+  gap: 20px;
+  position: relative;
+  right: 90px;
+}
+
+.sign {
+  text-align: center;
+  font-family: "Inter";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  color: #333333;
+  text-decoration: none;
+}
+
+.sign:hover {
+  color: #0c6b71;
+  cursor: pointer;
+  border-top: 1px solid #0c6b71;
+  padding-top: 4px;
+}
+
+.login {
+  font-family: "Inter";
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+  color: #333333;
+  text-decoration: none;
+}
+
+.login:hover {
+  color: #0c6b71;
+  cursor: pointer;
+  border-top: 1px solid #0c6b71;
+  padding-top: 4px;
+  /* border-bottom: 1px solid #0c6b71; */
+}
+
+.tasker {
+  color: var(--Foundation-Teal---Primary-teal-500, #0c6b71);
+  text-align: center;
+  font-family: "Inter";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.tasker:hover {
+  color: #0c6b71;
+  cursor: pointer;
+}
+
+.nav-links {
+  color: #fff;
+  background: #0c6b71;
+}
+
+.nav-links::before {
+  border: 2px solid violet;
+  transition: all 0.2s ease-out;
+}
+
+.dropdown_ul {
+  width: 40%;
+  height: 800%;
+  top: 55px;
+  position: relative;
+  right: 50%;
+  padding: 8px 20px;
+  background: #ffffff;
+
+  list-style: none;
+  color: #333333;
+  position: absolute;
+  font-family: "Archivo";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 35px;
+  text-align: left;
+}
+
+.dropdown_ul li:hover {
+  color: #0c6b71;
+}
+
+@media screen and (max-width: 760px) {
+  .container {
+    background-color: orange;
+  }
+
+  .active {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 70vw;
+    right: 0px;
+    position: absolute;
+    height: 120vh;
+    align-items: flex-start;
+    right: 0px;
+    top: 10px;
+  }
+
+  .mobile {
+    position: absolute;
+    bottom: 300px;
+    width: 100vw;
+    right: 0px;
+  }
+
+  .image1 {
+    display: none;
+    width: 20px;
+    height: 20px;
+    left: 20px;
+  }
+  .btn_icon {
+    display: flex;
+    left: 35%;
+    border: none;
+    background-color: unset;
+    z-index: 20;
+  }
+}
